@@ -89,13 +89,13 @@
     
     /*hyperlinks*/
     a{
-        color:#0664e6;
+        color:#0b555a;
         text-decoration:inherit;
     }
     
     /*hyperlink hover color*/
     a:hover{
-        
+        color: #0b555a !important;
     }
     
     body{
@@ -103,7 +103,7 @@
     }
     
     header{
-        
+        background:#faba6d;
     }
     
     .main_window{
@@ -143,15 +143,16 @@
     }
     /*social media box color*/
     #social_media_wrapper{
-        background:#18498d;
+        background:#faba6d;
     }
     /*social media icon inner color*/
     #social_media_wrapper a{
-        color:#18498d;
+        color:#faba6d;
+        
     }
     #social_media_wrapper a:hover{
         color:white;
-        background:black;
+        background:#faba6d;
     }
     .map-mouse-over{
     /*set color of store highlight and hover over for SVG map*/
@@ -159,20 +160,11 @@
     }
     /*inside page banners*/
     .page_banner{
-        color:black;
-        /* For Safari 5.1 to 6.0 */
-        background: -webkit-linear-gradient(left,#6e6e6e,#bebdbd, #6e6e6e);
-        /* For Opera 11.1 to 12.0 */
-        background: -o-linear-gradient(left,#6e6e6e,#bebdbd, #6e6e6e);
-        /* For Fx 3.6 to 15 */
-        background: -moz-linear-gradient(left,#6e6e6e,#bebdbd, #6e6e6e);
-        /* Standard syntax */
-        background: linear-gradient(to right,#6e6e6e,#bebdbd, #6e6e6e); 
-        box-shadow: 0px 0px 30px lightgray inset;
+        background: #988678;
     }
     
     #description_section{
-        
+        background:#988678;
     }
     
     .section_header{}
