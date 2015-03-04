@@ -166,7 +166,9 @@
     #description_section{
         background:#988678;
     }
-    
+    .navbar a.navbar-brand img {
+height: 90px
+}
     .section_header{}
     .promo_header{
         border-bottom:solid 1px #cccccc;
