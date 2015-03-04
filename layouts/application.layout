@@ -103,22 +103,22 @@
     }
     
     header{
-        background:#faba6d;
+        background:#797268;
     }
     
     .main_window{
-        border:40px solid #eaf1fb;
+        border:40px solid #dddcd9;
     }
     .btn-primary{
-        background: #d9534f !important;
-        border-color:#d43f3a !important;
+        background: #0B555A !important;
+        border-color:#004045 !important;
         text-align:center;
         color:white !important;
     }
     
     .btn-primary:hover{
-        background: #d9534f !important;
-        border-color:#d43f3a !important;
+        background: #0B555A !important;
+        border-color:#004045 !important;
         text-align:center;
     }
     
@@ -143,16 +143,17 @@
     }
     /*social media box color*/
     #social_media_wrapper{
-        background:#faba6d;
+        background:#797268;
     }
     /*social media icon inner color*/
     #social_media_wrapper a{
-        color:#faba6d;
+        color:white;
+        background:#93877c !important;
         
     }
     #social_media_wrapper a:hover{
-        color:white;
-        background:#faba6d;
+        color: #93877c !important;
+        background:white !important;
     }
     .map-mouse-over{
     /*set color of store highlight and hover over for SVG map*/
@@ -166,18 +167,18 @@
     #description_section{
         background:#988678;
     }
-    .navbar a.navbar-brand img {
-height: 90px
-}
+    
     .section_header{}
     .promo_header{
         border-bottom:solid 1px #cccccc;
         padding-bottom:10px;
     }
     
-    
+    .navbar a.navbar-brand img {
+height: 90px
+}
     .right_column_header {
-        color: #009cde ;
+        color: #0B555A ;
     }
     
     .navbar .nav li a:hover {
@@ -189,7 +190,7 @@ height: 90px
     @media (max-width: 767px) {
         .main_window{
             width:100%;
-            border:15px solid #eaf1fb !important;
+            border:15px solid #dddcd9 !important;
             border-top:none !important;
         }  
     }
