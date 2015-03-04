@@ -174,7 +174,9 @@
         padding-bottom:10px;
     }
     
-   
+   .view_button {
+        background:#797268 !important;
+    }
     .right_column_header {
         color: #0B555A ;
     }
