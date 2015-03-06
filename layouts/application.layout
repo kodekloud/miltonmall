@@ -210,7 +210,15 @@
                </a><a href="#" class="btn btn-navbar btn-default navbar-toggle" onclick="javascript:toggle_menu()"><span class="nb_left pull-left"><span class="fa fa-reorder"></span></span><p style="display:none">menu</p> </a></div>
                 <div class="mobile_menu" style="display:none">
                     <ul>
-                          <li><a href="/stores">Store Directory</a></li>
+                         <li><a href="#" onclick="javascript:toggle_submenu('directory_dd');">Store Directory <span class="caret"></span></a>
+                            <div id="directory_dd" class="submenu" style="display:none">
+                                <ul>
+                                    <li><a href="/stores">Store Directory</a></li>
+                                    <!--<li><a href="/map">Centre Map</a></li>-->
+                                    <li><a href="/office_directory">Office Directory</a></li>
+                                </ul>    
+                            </div>
+                        </li>
                         <li><a href="/events">Events</a></li>
                         <li><a href="/promotions">Promotions</a></li>
                         <li><a href="#" onclick="javascript:toggle_submenu('leasing_dd');">Leasing <span class="caret"></span></a>
@@ -240,6 +248,7 @@
                          <li id="directory_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Store Directory <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="/stores">Store Directory</a></li>
+                                <li><a href="/office_directory">Office Directory</a></li>
                                 <li id="menu_map"><a href="/map">Centre Map</a></li>
                                 
                             </ul> 
