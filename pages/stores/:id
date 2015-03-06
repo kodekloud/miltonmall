@@ -461,7 +461,7 @@ background-color: #FFFFFF ;
                     }
                     
                     
-                    val.alt_store_front_url = getImageURL(val.store_front_url); 
+                    if ((val.store_front_url).indexOf('missing.png') > -1){ val.alt_store_front_url = "http://kodekloud.s3.amazonaws.com/sites/54f605386e6f6412de000000/3b8e3ca8861507c6ed46e21140efea2d/MM_16.png" } else { val.alt_store_front_url = getImageURL(val.store_front_url); }
                     
                     
                     val.hours = (getHoursForIds(val.store_hours))
