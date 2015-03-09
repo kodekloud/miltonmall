@@ -89,13 +89,13 @@
     
     /*hyperlinks*/
     a{
-        color:#0b555a;
+        color:#0B555A;
         text-decoration:inherit;
     }
     
     /*hyperlink hover color*/
     a:hover{
-        color: #0b555a !important;
+        color: #0B555A !important;
     }
     
     body{
@@ -103,7 +103,7 @@
     }
     
     header{
-        background:#797268;
+        background:#253a80;
     }
     
     .main_window{
