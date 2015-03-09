@@ -128,7 +128,7 @@
     }
     
     .navbar .nav li a:hover,.navbar .nav li a:active{
-        color:#c8c8c8;
+        color:#d2d1e1;
     }
     
     .site_welcome_msg{
@@ -182,16 +182,16 @@
     }
     
     .navbar .nav li a:hover {
-        color:#bfb9ae !important;
+        color:#d2d1e1 !important;
     
     }
      .site-map-section a:hover {
-         color:#bfb9ae !important;
+         color:#d2d1e1 !important;
      }
     @media (max-width: 767px) {
         .main_window{
             width:100%;
-            border:15px solid #dddcd9 !important;
+            border:15px solid #b9b7d0 !important;
             border-top:none !important;
         }  
     }
