@@ -89,13 +89,13 @@
     
     /*hyperlinks*/
     a{
-        color:#0B555A;
+        color:#938c84;
         text-decoration:inherit;
     }
     
     /*hyperlink hover color*/
     a:hover{
-        color: #0B555A !important;
+        color: #938c84 !important;
     }
     
     body{
@@ -107,18 +107,18 @@
     }
     
     .main_window{
-        border:40px solid #dddcd9;
+        border:40px solid #b9b7d0;
     }
     .btn-primary{
-        background: #0B555A !important;
-        border-color:#004045 !important;
+        background: #938c84 !important;
+        border-color:#797268 !important;
         text-align:center;
         color:white !important;
     }
     
     .btn-primary:hover{
-        background: #0B555A !important;
-        border-color:#004045 !important;
+        background: #938c84 !important;
+        border-color:#797268 !important;
         text-align:center;
     }
     
@@ -161,11 +161,11 @@
     }
     /*inside page banners*/
     .page_banner{
-        background: #938c84;
+        background: #575e95;
     }
     
     #description_section{
-        background:#938c84;
+        background:#575e95;
     }
     
     .section_header{}
