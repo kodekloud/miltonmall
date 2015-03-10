@@ -20,6 +20,7 @@
                <li class="item" style="background-image: url({{photo_url_abs}})">
                
                </li>
+               </a>
             </script>
           </ul>
      </div>
