@@ -162,11 +162,14 @@
     }
     /*inside page banners*/
     .page_banner{
-        background: #575e95;
+        background: #8483af;
     }
     
+    .site_description {
+        color:black;
+    }
     #description_section{
-        background:#575e95;
+        background:#8483af;
     }
     
     .section_header{}
