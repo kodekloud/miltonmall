@@ -171,7 +171,9 @@
     #description_section{
         background:#8483af;
     }
-    
+     p input[type='image']{
+       width:100% !important;
+   }
     .section_header{}
     .promo_header{
         border-bottom:solid 1px #cccccc;
